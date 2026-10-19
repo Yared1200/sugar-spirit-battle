@@ -1,0 +1,23 @@
+html {
+    background-color: rgb(255, 141, 161);
+}
+
+@import url("https://onlinewebfonts.com");
+
+.title {
+    font-family: "Helvetica Rounded", sans-serif;
+}
+
+.button {
+    background: linear-gradient(rgb(255, 141, 161), rgb(228, 0, 120));
+    border: 1px solid rgb(219, 112, 147)
+    border-radius: 7px;
+    box-shadow: 0 4px rgb(255, 105, 180);
+    width: 210px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font: normal normal 26px/60px "Helvetica Rounded", sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
